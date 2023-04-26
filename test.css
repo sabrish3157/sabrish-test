@@ -1,0 +1,89 @@
+.parent {
+    display: flex;
+    flex-direction: row;
+ }
+ 
+   body {font-family: Arial, Helvetica, sans-serif;}
+ form {border: 3px solid #f1f1f1;}
+ 
+ input[type=text], input[type=password] {
+   width: 97%;
+   padding: 12px 20px;
+   margin: 8px 0;
+   display:inline;
+   border: 1px solid #605e65ec;
+   box-sizing: border-box;
+   background-color: rgba(106, 107, 108, 0.07);
+   border-radius: 1px;
+ }
+ 
+ .createaccount{
+   background-color: #007074;
+   color: white;
+   padding: 14px 20px;
+   width: 25%;
+   
+   margin: 10px 300px;
+   border: none;
+   cursor: pointer;
+   
+  }
+ label{
+    margin-left: 0%;
+    display: inline;
+ }
+ button:hover {
+   opacity: 0.8;
+ }
+ h1{
+    
+    margin-left:270px;
+ }
+ 
+ .container
+ {margin-top: 10%;
+
+ }
+ .imgcontainer {
+   text-align: center;
+   margin: 24px 0 12px 0;
+   
+ }
+ .im{
+    height: 900px;
+    width: auto;
+ }
+span{
+    margin-left: 295px;
+}
+ .sa{
+    margin-left: 2rem;
+ }
+ body{
+    overflow: hidden;
+    
+ }
+ h2{
+    margin-left: 400px;
+ }
+ .Box {
+    margin-top: 40px; 
+    width: 288px;    
+    height: 62px;    
+    border-color: #D2D2D2;    
+    border-radius: 8px;    
+    font-family: Poppins;    
+    font-style: normal;    
+    font-weight: 500;    
+    font-size: 16px;    
+    display: flex;    
+    justify-content: space-around;    
+    align-items: center;    
+    }
+    
+    .signUp {    
+    display: flex;    
+    flex-direction: row;    
+    justify-content: space-between;
+    
+ }
